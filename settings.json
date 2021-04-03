@@ -1,0 +1,23 @@
+{
+    "lenta.ru": {
+        "filenameTemplate": "{path}{header}.txt",
+        "encoding": "utf-8",
+        "textTag": "p",
+        "headerTag": "h1",
+        "headerClearTextList": [":", "?"]
+    },
+    "www.gazeta.ru": {
+        "filenameTemplate": "{path}.txt",
+        "encoding": "utf-8",
+        "textTag": "p",
+        "headerTag": "h1",
+        "headerClearTextList": [".shtml", ":", "?"]
+    },
+    "habr.com": {
+        "filenameTemplate": "{path}/{header}.txt",
+        "encoding": "utf-8",
+        "textTag": "p",
+        "headerTag": "h1",
+        "headerClearTextList": ["\n", ":", "?"]
+    }
+}
